@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <EditText
+     android:id="@+id/toSearch"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp"
+     />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/searchTweets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_tweets_text"
+        android:layout_weight="1"
+        />
+
+
+    <Button
+        android:id="@+id/searchWords"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_words_text"
+        android:layout_weight="1"
+        />
+
+
+    </LinearLayout>
+
+
+    <ListView
+    android:id="@+id/listView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ></ListView>
+
+</LinearLayout>

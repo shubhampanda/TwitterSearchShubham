@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/item_view_margin"
+    android:paddingTop="@dimen/item_view_margin"
+    android:paddingBottom="@dimen/item_view_margin"
+    android:paddingLeft="@dimen/item_view_margin"
+    >
+
+
+
+    <TextView
+        android:id="@+id/ivWord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="@dimen/item_text_size"
+        />
+
+    <TextView
+        android:id="@+id/ivCount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="@dimen/item_text_size"
+        />
+
+
+</LinearLayout>

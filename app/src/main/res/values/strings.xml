@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TwitterSearchShubham</string>
+    <string name="button_tweets_text">Search Tweets</string>
+    <string name="button_words_text">Frequent Words</string>
+</resources>
